@@ -1,0 +1,397 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<title>Plugin</title>
+
+		<script src="../../../../assets/mootools/mootools-core-1.2.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../../../assets/mootools/mootools-more-1.2.3.1.js" type="text/javascript" charset="utf-8"></script>
+
+		<script src="../../../../assets/js-spec/Builder.js" type="text/javascript"></script>
+
+
+		<link rel="stylesheet" href="../../source/moo.meio.keyboard.css" type="text/css" />
+		<script type="text/javascript" charset="utf-8">
+			Builder.build('../../', {
+				'source': [
+					'moo.event.clickout',
+					'moo.meio.keyboard',
+				]
+			});
+		</script>
+		<script type="text/javascript" >
+			
+		</script>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			* html{
+				overflow: hidden;
+			}
+			body{
+				height: 100%;
+				overflow-y: auto;
+			}
+		</style>
+	</head>
+	<body>
+		
+		
+		<input type="text" name="pwd" value="" id="pwd" />
+		
+		<input type="text" name="pwd" value="" id="pwd" />
+		
+		<input type="text" name="pwd" value="" id="pwd" />
+
+
+		<div class="mk-container">
+			<div class="mk-container1">
+				<div class="mk-shift-inactive">
+					<div class="mk-row0">
+						<button title="accent" type="button">`</button>
+						<button title="1" type="button">1</button>
+						<button title="2" type="button">2</button>
+						<button title="3" type="button">3</button>
+						<button title="4" type="button">4</button>
+						<button title="5" type="button">5</button>
+						<button title="6" type="button">6</button>
+						<button title="7" type="button">7</button>
+						<button title="8" type="button">8</button>
+						<button title="9" type="button">9</button>
+						<button title="0" type="button">0</button>
+						<button title="-" type="button">-</button>
+						<button title="=" type="button">=</button>
+						<button class="mk-backspace" title="Apagar" type="button">Apagar</button>
+					</div>
+					<div class="mk-row1">
+						<button title="q" type="button">q</button>
+						<button title="w" type="button">w</button>
+						<button title="e" type="button">e</button>
+						<button title="r" type="button">r</button>
+						<button title="t" type="button">t</button>
+						<button title="y" type="button">y</button>
+						<button title="u" type="button">u</button>
+						<button title="i" type="button">i</button>
+						<button title="o" type="button">o</button>
+						<button title="p" type="button">p</button>
+						<button title="[" type="button">[</button>
+						<button title="]" type="button">]</button>
+						<button title="\" type="button">\</button>
+					</div>
+					<div class="mk-row2">
+						<button title="a" type="button">a</button>
+						<button title="s" type="button">s</button>
+						<button title="d" type="button">d</button>
+						<button title="f" type="button">f</button>
+						<button title="g" type="button">g</button>
+						<button title="h" type="button">h</button>
+						<button title="j" type="button">j</button>
+						<button title="k" type="button">k</button>
+						<button title="l" type="button">l</button>
+						<button title=";" type="button">;</button>
+						<button title="'" type="button">'</button>	
+					</div>
+					<div class="mk-row3">
+						<button title="Shift" type="button" class="mk-shift">Shift</button>
+						<button title="z" type="button">z</button>
+						<button title="x" type="button">x</button>
+						<button title="c" type="button">c</button>
+						<button title="v" type="button">v</button>
+						<button title="b" type="button">b</button>
+						<button title="n" type="button">n</button>
+						<button title="m" type="button">m</button>
+						<button title="," type="button">,</button>
+						<button title="." type="button">.</button>
+						<button title="/" type="button">/</button>
+					</div>
+				</div>
+				<div class="mk-shift-active">
+					<div class="mk-row0">
+						<button title="til" type="button">~</button>
+						<button title="exclamação" type="button">!</button>
+						<button title="arroba" type="button">@</button>
+						<button title="sustenido" type="button">#</button>
+						<button title="cifrão" type="button">$</button>
+						<button title="por cento" type="button">%</button>
+						<button title="acento circunflexo" type="button">^</button>
+						<button title="'e' comercial" type="button">&amp;</button>
+						<button title="asterisco" type="button">*</button>
+						<button title="abrir parêntese" type="button">(</button>
+						<button title="fechar parêntese" type="button">)</button>
+						<button title="underline" type="button">_</button>
+						<button title="mais" type="button">+</button>
+						<button class="mk-backspace" title="apagar" type="button">Apagar</button>
+					</div>
+					<div class="mk-row1">
+						<button title="Q" type="button">Q</button>
+						<button title="W" type="button">W</button>
+						<button title="E" type="button">E</button>
+						<button title="R" type="button">R</button>
+						<button title="T" type="button">T</button>
+						<button title="Y" type="button">Y</button>
+						<button title="U" type="button">U</button>
+						<button title="I" type="button">I</button>
+						<button title="O" type="button">O</button>
+						<button title="P" type="button">P</button>
+						<button title="{" type="button">{</button>
+						<button title="}" type="button">}</button>
+						<button title="|" type="button">|</button>
+					</div>
+					<div class="mk-row2">
+						<button title="a" type="button">A</button>
+						<button title="s" type="button">S</button>
+						<button title="d" type="button">D</button>
+						<button title="f" type="button">F</button>
+						<button title="g" type="button">G</button>
+						<button title="h" type="button">H</button>
+						<button title="j" type="button">J</button>
+						<button title="k" type="button">K</button>
+						<button title="l" type="button">L</button>
+						<button title=";" type="button">:</button>
+						<button title="'" type="button">"</button>
+					</div>
+					<div class="mk-row3">
+						<button title="Shift" type="button" class="mk-shifton">Shift</button>
+						<button title="Z" type="button">Z</button>
+						<button title="X" type="button">X</button>
+						<button title="C" type="button">C</button>
+						<button title="V" type="button">V</button>
+						<button title="B" type="button">B</button>
+						<button title="N" type="button">N</button>
+						<button title="M" type="button">M</button>
+						<button title="menor que" type="button">&lt;</button>
+						<button title="maior que" type="button">&gt;</button>
+						<button title="?" type="button">?</button>
+					</div>
+				</div>
+				<div class="mk-row4 mk-spacebar">
+					<button title="barra de espaço" type="button"> </button>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		<div class="mk-container">
+			<div class="mk-container1">
+				<div class="mk-shift-inactive">
+					<div class="mk-row0">
+						<button title="accent" type="button">`</button>
+						<button title="1" type="button">1</button>
+						<button title="2" type="button">2</button>
+						<button title="3" type="button">3</button>
+						<button title="4" type="button">4</button>
+						<button title="5" type="button">5</button>
+						<button title="6" type="button">6</button>
+						<button title="7" type="button">7</button>
+						<button title="8" type="button">8</button>
+						<button title="9" type="button">9</button>
+						<button title="0" type="button">0</button>
+						<button title="-" type="button">-</button>
+						<button title="=" type="button">=</button>
+						<button class="mk-backspace" title="Apagar" type="button">Apagar</button>
+					</div>
+					<div class="mk-row1">
+						<button title="q" type="button">q</button>
+						<button title="w" type="button">w</button>
+						<button title="e" type="button">e</button>
+						<button title="r" type="button">r</button>
+						<button title="t" type="button">t</button>
+						<button title="y" type="button">y</button>
+						<button title="u" type="button">u</button>
+						<button title="i" type="button">i</button>
+						<button title="o" type="button">o</button>
+						<button title="p" type="button">p</button>
+						<button title="[" type="button">[</button>
+						<button title="]" type="button">]</button>
+						<button title="\" type="button">\</button>
+					</div>
+					<div class="mk-row2">
+						<button title="a" type="button">a</button>
+						<button title="s" type="button">s</button>
+						<button title="d" type="button">d</button>
+						<button title="f" type="button">f</button>
+						<button title="g" type="button">g</button>
+						<button title="h" type="button">h</button>
+						<button title="j" type="button">j</button>
+						<button title="k" type="button">k</button>
+						<button title="l" type="button">l</button>
+						<button title=";" type="button">;</button>
+						<button title="'" type="button">'</button>	
+					</div>
+					<div class="mk-row3">
+						<button title="Shift" type="button" class="mk-shift">Shift</button>
+						<button title="z" type="button">z</button>
+						<button title="x" type="button">x</button>
+						<button title="c" type="button">c</button>
+						<button title="v" type="button">v</button>
+						<button title="b" type="button">b</button>
+						<button title="n" type="button">n</button>
+						<button title="m" type="button">m</button>
+						<button title="," type="button">,</button>
+						<button title="." type="button">.</button>
+						<button title="/" type="button">/</button>
+					</div>
+				</div>
+				<div class="mk-shift-active">
+					<div class="mk-row0">
+						<button title="til" type="button">~</button>
+						<button title="exclamação" type="button">!</button>
+						<button title="arroba" type="button">@</button>
+						<button title="sustenido" type="button">#</button>
+						<button title="cifrão" type="button">$</button>
+						<button title="por cento" type="button">%</button>
+						<button title="acento circunflexo" type="button">^</button>
+						<button title="'e' comercial" type="button">&amp;</button>
+						<button title="asterisco" type="button">*</button>
+						<button title="abrir parêntese" type="button">(</button>
+						<button title="fechar parêntese" type="button">)</button>
+						<button title="underline" type="button">_</button>
+						<button title="mais" type="button">+</button>
+						<button class="mk-backspace" title="apagar" type="button">Apagar</button>
+					</div>
+					<div class="mk-row1">
+						<button title="Q" type="button">Q</button>
+						<button title="W" type="button">W</button>
+						<button title="E" type="button">E</button>
+						<button title="R" type="button">R</button>
+						<button title="T" type="button">T</button>
+						<button title="Y" type="button">Y</button>
+						<button title="U" type="button">U</button>
+						<button title="I" type="button">I</button>
+						<button title="O" type="button">O</button>
+						<button title="P" type="button">P</button>
+						<button title="{" type="button">{</button>
+						<button title="}" type="button">}</button>
+						<button title="|" type="button">|</button>
+					</div>
+					<div class="mk-row2">
+						<button title="a" type="button">A</button>
+						<button title="s" type="button">S</button>
+						<button title="d" type="button">D</button>
+						<button title="f" type="button">F</button>
+						<button title="g" type="button">G</button>
+						<button title="h" type="button">H</button>
+						<button title="j" type="button">J</button>
+						<button title="k" type="button">K</button>
+						<button title="l" type="button">L</button>
+						<button title=";" type="button">:</button>
+						<button title="'" type="button">"</button>
+					</div>
+					<div class="mk-row3">
+						<button title="Shift" type="button" class="mk-shifton">Shift</button>
+						<button title="Z" type="button">Z</button>
+						<button title="X" type="button">X</button>
+						<button title="C" type="button">C</button>
+						<button title="V" type="button">V</button>
+						<button title="B" type="button">B</button>
+						<button title="N" type="button">N</button>
+						<button title="M" type="button">M</button>
+						<button title="menor que" type="button">&lt;</button>
+						<button title="maior que" type="button">&gt;</button>
+						<button title="?" type="button">?</button>
+					</div>
+				</div>
+				<div class="mk-row4 mk-spacebar">
+					<button title="barra de espaço" type="button"> </button>
+				</div>
+			</div>
+		</div>
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		dsaijfodsifajij fojsd oifjd <br />
+		ultima linha
+		<script type="text/javascript" charset="utf-8">
+			var inputs = $$('input');
+			$$('.mk-container').each(function(el){
+				new Meio.VirtualKeyboard(el, inputs);
+			});
+		</script>
+	</body>
+</html>

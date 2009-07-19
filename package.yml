@@ -1,0 +1,11 @@
+name:           Meio Virtual Keyboard
+
+author:         Fábio M. Costa
+current:        0.1
+category:       Interface
+tags:           [keyboard, accessibility]
+#docs:          http://url_to_docs
+#demo:          http://demo_url
+#requires:
+#  - { package: 'some-plugin', version: '0.1' }
+#  - { package: 'http://external-plugin.com' }

@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Plugin Specs</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		
+		<script src="../../../../assets/mootools/mootools-core-1.2.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../../../assets/firebug/firebug-lite-compressed.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../../../assets/js-spec/JSSpec.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../../../assets/js-spec/DiffMatchPatch.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../../../assets/js-spec/Builder.js" type="text/javascript" charset="utf-8"></script>
+		
+		<link href="../../../../assets/js-spec/Specs.css" rel="stylesheet" type="text/css" />
+		
+		<script type="text/javascript" charset="utf-8">
+			Builder.build('../../', {
+				source: [
+					'moo.meio.template',
+				],
+				tests: {
+					unit: {
+						'meio': ['moo.meio.template']
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

@@ -1,0 +1,59 @@
+.mk-container{ 
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	position: absolute; 
+	width: 100%;
+	overflow: hidden;
+	position: fixed;
+	_position: absolute;
+	bottom: 0;
+	left: 0;
+	display: none;
+	border-top: 1px solid #ccc;
+}
+.mk-container .mk-container1{
+	margin: 0 auto;
+	width: 860px;
+	overflow: hidden;
+	padding: 10px 0;
+}
+.mk-container button{
+	font-size: 30px !important;
+	width: 44px;
+	margin-right: 10px;
+	height: 40px;
+	display: inline;
+	float: left;
+}
+.mk-container .mk-spacebar button{
+	width: 400px;
+	margin: 0 auto; 
+	margin-left: 150px;
+}
+.mk-container .mk-shift, .mk-container .mk-shifton{ 
+	width: 85px; 
+	text-align: left;
+}
+.mk-container .mk-shift-active{
+	display: none;
+}
+.mk-container .mk-row0, .mk-container .mk-row1, .mk-container .mk-row2, .mk-container .mk-row3{
+	padding-bottom: 10px;
+	overflow: hidden;
+	width: 100%;
+}
+.mk-container .mk-row0{
+	padding-left: 20px; 
+}
+.mk-container .mk-row1{
+	padding-left: 60px; 
+}
+.mk-container .mk-row2{
+	padding-left: 70px; 
+}
+.mk-container .mk-backspace{
+	width: 125px;
+}
+.mk-container .mk-shifton{
+	border-left: 3px solid #000; 
+	border-top: 3px solid #000; 
+}
